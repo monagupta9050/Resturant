@@ -1,0 +1,81 @@
+
+
+
+.navbar {
+    background-color: #fff;
+    padding: 10px 30px;
+    z-index: -99;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .navbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+  }
+  
+  .logo img {
+    width: 150px;
+    height: 65px;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+  }
+  
+  .contact-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .offer-button {
+    background-color: #dae952;
+    color: #000000;
+    font-weight: 700;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 15px;
+    cursor: pointer;
+    font-family: "Volkhov", serif;
+  }
+  
+  .phone-info {
+    display: flex;
+    align-items: center;
+    color: #000000;
+    font-weight: bold;
+  }
+  
+  .phone-icon {
+    margin-right: 8px;
+  }
+  
+  .icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-icon {
+    border: 1px solid #000000;
+    padding: 5px;
+    border-radius: 50%;
+    margin-left: 15px;
+    color: #000000;
+    cursor: pointer;
+  }
+  

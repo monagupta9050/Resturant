@@ -1,0 +1,76 @@
+
+
+
+.chef-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 100px;
+    position: relative;
+  }
+  .chef-one-image img{
+    width: 400px;
+    height: 450px;
+    position: absolute;
+    top: -180px;
+    left: 0;
+  }
+  
+  .chef-text {
+   width: 70%;
+   text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .chef-text h1 {
+    font-size: 58px;
+    margin: 0;
+    font-family: "Ms Madi", cursive;
+  }
+  
+  .diff {
+    color: #dae952;
+  }
+  
+  .expert {
+    display: block;
+    font-size: 50px;
+    font-weight: bold;
+ 
+  }
+  
+  .chef-text p {
+    margin-top: 15px;
+    font-size: 15px;
+    color: #000000;
+    max-width: 400px;
+    font-family: "Volkhov", serif;
+  }
+  
+  .chef-image {
+    width: 50%;
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  .chef-circle {
+    position: absolute;
+    top: 112px;
+    width: 500px; 
+    height: 500px; 
+    border-radius: 50%;
+    border: 2px solid #dae952;
+    background: linear-gradient(to top, #dae952 50%, transparent 50%);
+    z-index: -1;
+  }
+  
+  
+  .chef-image img {
+    max-width: 300px;
+    height: auto;
+    max-height: 530px;
+   
+  }

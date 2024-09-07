@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.welcome-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 100px;
+
+  margin-bottom: 0;
+  background: rgba(218, 233, 82, 0.2);
+}
+
+.img-container {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  position: relative;
+}
+
+.img-container img {
+  max-width: 600px;
+  max-height: 700px;
+  object-fit: contain;
+}
+.circle {
+  height: 40px;
+  width: 40px;
+  background: rgba(218, 233, 82, 0.2);
+  border: 2px solid rgba(0, 0, 0, 1);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 155px;
+  top: 440px;
+}
+.text-container {
+  width: 40%;
+  text-align: center;
+}
+
+.text-container h1 {
+  font-size: 3rem;
+  margin: 0;
+  font-family: "Baskervville SC", serif;
+}
+.highlight {
+  font-size: 3rem;
+  display: inline-block;
+  font-family: "Baskervville SC", serif;
+  font-weight: bold;
+}
+.diff {
+  color: #dae952;
+}
+.text-container p {
+  margin-top: 10px;
+  font-size: 15px;
+  color: #000000;
+  font-family: "Volkhov", serif;
+}
+.button-image-container {
+  position: relative;
+  z-index: 99999 !important;
+}
+
+.wlcm-btn {
+  padding: 8px 30px;
+  background-color: #dae952;
+  color: #000000;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  z-index: 99999 !important;
+  position: relative;
+  font-family: "Volkhov", serif;
+}
+
+.button-image-container img {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  left: 262px;
+  top: 19px;
+  z-index: 1;
+}
