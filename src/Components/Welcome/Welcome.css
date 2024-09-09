@@ -133,7 +133,7 @@ body {
     height: 300px;
   }
 }
-@media (max-width:350px) {
+@media (max-width:395px) {
   .button-image-container img{
     top: 3;
     left: 210px;
