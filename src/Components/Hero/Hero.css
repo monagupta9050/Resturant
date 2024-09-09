@@ -51,6 +51,7 @@
   width: 500px;
   height: 500px;
   z-index: -1;
+  border: none;
 }
 .hero-circle-image {
   position: absolute;
@@ -70,4 +71,28 @@
   right: 0;
   top: 180px;
   height: 120px;
+}
+
+
+@media (max-width:1326px) {
+  .hero-content{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .clipy-path img{
+    width: 885px;
+  }
+  .hero-circle-image{
+    left: 210px;
+  }
+  .hero-text{
+    text-align: center;
+    margin-top: 1rem;
+  }
+}
+@media (max-width:1302px) {
+  .clipy-path img{
+    width: 100%;
+    height: auto;
+  }
 }

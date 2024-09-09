@@ -5,7 +5,7 @@ function Chef() {
   return (
     <div className="chef-container">
       <div className='chef-one-image'>
-        <img src='./images/white-vegetable.png'/>
+        {/* <img src='./images/white-vegetable.png'/> */}
       </div>
       <div className="chef-text">
         <h1>

@@ -69,8 +69,41 @@
   
   
   .chef-image img {
-    max-width: 300px;
+    width: 300px;
     height: auto;
-    max-height: 530px;
+    
    
+  }
+
+  @media (max-width:1100px) {
+    .chef-container{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    .chef-text p{
+      margin-bottom: 10px;
+    }
+    
+  }
+  @media (max-width:770px) {
+    .chef-one-image img{
+      width: 250px;
+      height: 250px;
+    }
+  }
+  @media (max-width:702px) {
+    .chef-text{
+      width: 100%;
+    }
+  }
+  @media (max-width:555px) {
+    .chef-text h1 ,.expert{
+      font-size: 2rem;
+    }
+  }
+  @media (max-width:500px) {
+    .chef-image{
+      width: 100%;
+    }
   }

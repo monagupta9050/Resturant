@@ -14,6 +14,7 @@ function Navbar() {
         <div className="logo">
           <img src="../images/Frame.png" alt="Logo" />
         </div>
+        <div className="menu">
         <ul className="nav-links">
           <li>
             <a href="#">Product</a>
@@ -31,6 +32,7 @@ function Navbar() {
             <FontAwesomeIcon icon={faPhone} className="phone-icon" />
             <p>+923351263561</p>
           </div>
+        </div>
         </div>
         <div className="icons">
           <FontAwesomeIcon icon={faUser} className="nav-icon" />

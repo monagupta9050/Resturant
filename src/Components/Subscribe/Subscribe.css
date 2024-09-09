@@ -7,7 +7,7 @@
   justify-content: center;
   align-items: center;
   height: 250px;
-  margin: 0px 232px;
+  margin: 0px 220px;
   border-radius: 30px;
 }
 
@@ -20,12 +20,12 @@
 }
 
 .subscribe-text {
-
+  
   color: #fff;
   font-size: 1.9rem;
+  margin: 0 20px;
   margin-bottom: 16px;
   font-weight: bolder;
-  letter-spacing: normal;
   
 }
 
@@ -57,4 +57,42 @@
   right: 0;
   font-family: "Volkhov", serif;
  
+}
+
+
+@media (max-width:1195px) {
+  .subscribe-container{
+
+    width: 100%;
+    height: auto;
+    padding: 60px;
+    margin: 0;
+    border-radius: 0;
+  }
+ 
+}
+
+@media (max-width:768px) {
+  .subscribe-button{
+    position: relative;
+    margin: auto;
+    display: block;
+    padding: 10px 35px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 5px;
+  }
+  .subscribe-input-group{
+    width: 100%;
+    display: block;
+    margin-bottom: 1rem;
+  }
+  .subscribe-text{
+    font-size: 1.3rem;
+  }
+}
+@media (max-width:515px) {
+  .subscribe-text{
+    font-size: 1rem;
+  }
 }
